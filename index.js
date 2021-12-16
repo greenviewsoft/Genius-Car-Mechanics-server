@@ -8,7 +8,7 @@ require('dotenv').config()
 
 
 const app = express();    //step 2
-const port = 5000;  //step 3
+const port = process.env.Port || 5000;  //step 3
 
 
 //miiddleware
